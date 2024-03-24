@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');/* INSÉRER LE LIEN VERS LA POLICES GOOGLE FONT ICI */
+
+body{
+    background-image: url('./bg_body.png');
+    /*  Inscrire le chemin pour insérer l'image bg_body.png */
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    width: 1300px;
+    margin: 0 auto;
+    /* Inscrire la couleur pour obtenir un fond blanc */
+    background-color:#ffffff ;
+    margin-bottom: 100px;
+    box-shadow: 0px 0px 20px #000000;
+}
+/* STYLE DU CONTENU DE HEADER..................... */
+header{
+    padding: 80px;
+    background-image: url(./dame.png);
+    /*  Inscrire le chemin pour insérer l'image dame.png */
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+
+header img{
+    /* Inscrire ici ce qu'il faut pour obtenir une largeur de 300px */
+    width: 300px;
+    margin-bottom: 120px;
+    margin-left: 20px;
+}
+
+header h1{
+    font-weight: 400;
+    margin-left: 125px;
+    margin-bottom: 20px;
+    width: 300px;
+       /* Inscrire ici ce qu'il faut pour obtenir une taile de caractères de 100px */
+       font-size: 100px;
+    color: #da9e5e;
+}
+
+header h2{
+    font-weight: 600;
+    margin-left: 125px;
+    margin-bottom: 200px;
+    /* Inscrire ici ce qu'il faut pour obtenir une taille de caractères de 35px */
+    font-size: 35px;
+    /* Inscrire ici ce qu'il faut pour obtenir un interlignage de 45px */
+    line-height: 45px;
+    /* Inscrire ici ce qu'il faut pour obtenir une couleur de #ffffff */
+    color: #ffffff;
+}
+/* STYLE DU CONTENU DE SECTION..................... */
+section{
+    /* Inscrire ce qu'il faut pour avoir une couleur d'arrière-plan en gris foncé #4d4d4d */
+    background-color: #4d4d4d;
+    padding: 100px 300px;
+}
+section h2{
+    /* Inscrire ici ce qu'il faut pour obtenir une taille de caractères de 40px */
+    font-size: 40px;
+    /* Inscrire ici ce qu'il faut pour obtenir un interlignage de 50px */
+    line-height: 50px;
+    font-weight: 600;
+    /* Inscrire ici ce qu'il faut pour obtenir une couleur de texte #da9e5e  */
+    color: #da9e5e;
+    margin-bottom: 40px;
+}
+section p{
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 24px;
+    /* Inscrire ce qu'il faut pour avoir une marge du bas de 20px */
+    margin-bottom: 20px;
+    text-align: justify;
+    hyphens: auto;
+}
+
+section h3{
+    color: #ffffff;
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    /* Inscrire ce qu'il faut pour obtenir un texte tout en capital/majuscule */
+    text-transform: uppercase;
+}
+
+section a{
+    display: block;
+    width: 200px;
+    background-color: #da9e5e;
+    padding: 20px 20px;
+    text-align: center;
+    margin: 50px 0 0 0;
+    border-radius: 50px;
+    text-transform: uppercase;
+    /* Inscrire ici ce qu'il faut pour retirer le souligné par défaut d'un lien */
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+section a:hover{
+    color: #da9e5e;
+    background-color: #ffffff;
+}
+/* STYLE DU CONTENU DE FOOTER..................... */
+footer{
+    text-align: center;
+    padding: 50px;
+    color:#163031;
+    border-top: 8px solid #da9e5e;
+}
+
+footer h2{
+    font-size: 30px;
+    font-weight: 600;
+    /* Inscrire ici ce qu'il faut pour obtenir une marge du bas de 50px */
+    margin-bottom: 50px;
+}
+
+footer p{
+    margin-bottom: 16px;
+    line-height: 24px;
+}
+
+footer p a{
+    color:#4d4d4d;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+footer p a:hover{
+    /* Inscrire ici ce qu'il faut pour obtenir du texte en blanc */
+    color: #ffffff;
+    background-color: #4d4d4d;
+}
+
+/* AUTRES STYLES..................... */
+
+.gras_beige{
+    font-weight: 600;
+    color:#da9e5e;
+}
